@@ -1,0 +1,59 @@
+{
+	"title": "学习笔记与知识库",
+	"author": "Qt",
+	"description": "",
+	"language": "zh-hans",
+	"gitbook": "3.2.3",
+	"styles": {
+		"website": "book.css"
+	},
+	"structure": {
+		"readme": "README.md",
+		"summary": "SUMMARY.md"
+	},
+	"links": {
+		"gitbook": false,
+		"sharing": {
+			"google": false,
+			"facebook": false,
+			"twitter": false,
+			"all": false
+		}
+	},
+	"plugins": [
+		"sharing",
+		"search-plus",
+		"-navigator",
+		"prism",
+		"prism-themes",
+		"advanced-emoji",
+		"anchors",
+		"ace",
+		"emphasize",
+		"katex",
+		"splitter",
+		"chapter-fold",
+		"expandable-chapters-small",
+		"code",
+		"sectionx"
+	],
+	"pluginsConfig": {
+		"theme-default": {
+			"showLevel": true
+		},
+		"prism": {
+			"css": [
+				"prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
+			]
+		},
+		"sectionx": {
+			"tag": "b"
+		}
+	},
+	"pdf": {
+		"toc": true,
+		"pageNumbers": true,
+		"fontSize": 16,
+		"paperSize": "a4"
+	}
+}
